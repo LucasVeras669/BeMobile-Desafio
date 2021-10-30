@@ -39,14 +39,18 @@ border-radius: 4px;
 padding-left: 10px;
 
 `
-export const HeaderList = styled.div`
-width: 96%;
-height: 49px;
+export const ListContainer = styled.div`
+width: 95%;
 margin: 10px auto;
+`
+export const HeaderList = styled.div`
+width: 100%;
+height: 49px;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 border-radius: 4px 4px 0px 0px;
 background-color: #5984C0;
 display: flex;
+box-sizing: border-box;
 
 
 `

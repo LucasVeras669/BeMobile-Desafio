@@ -1,6 +1,7 @@
 import React from "react";
-import { Header, InputSearch, Logo, Container, Title, HeaderList} from './styles'
-import Text from '../components/Text/Text'
+import { Header, InputSearch, Logo, Container, Title, HeaderList, ListContainer  } from './styles'
+import Text from '../components/TextList/Text'
+import ItemList from '../components/ItemList/ItemList'
 import LogoImage from '../assets/logo.png'
 
 
@@ -15,14 +16,23 @@ const Home = () => {
                 <Title>Funcionários</Title>
                 <InputSearch placeholder='Pesquisar' />
             </Container>
-           
-            <HeaderList>
-            <Text photo={'FOTO'}/>
-            <Text name={'NOME'}/>
-            <Text office={'CARGO'}/>
-            <Text admissionDate={'DATA DE ADMISSÃO'}/>
-            <Text phone={'TELEFONE'}/>
-            </HeaderList>
+
+            <ListContainer>
+
+                <HeaderList>
+                    <Text photo={'FOTO'} />
+                    <Text name={'NOME'} />
+                    <Text office={'CARGO'} />
+                    <Text admissionDate={'DATA DE ADMISSÃO'} />
+                    <Text phone={'TELEFONE'} />
+                </HeaderList>
+
+                <ItemList/>
+                <ItemList/>
+
+            </ListContainer>
+
+
 
         </>
     )
