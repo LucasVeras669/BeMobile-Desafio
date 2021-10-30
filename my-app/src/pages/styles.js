@@ -18,6 +18,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
+padding: 10px;
 `
 export const Title = styled.h4`
 font-family: Roboto;
@@ -36,5 +37,16 @@ background: #FFFFFF;
 border: 1px solid #CDCDCD;
 border-radius: 4px;
 padding-left: 10px;
+
+`
+export const HeaderList = styled.div`
+width: 96%;
+height: 49px;
+margin: 10px auto;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+border-radius: 4px 4px 0px 0px;
+background-color: #5984C0;
+display: flex;
+
 
 `
