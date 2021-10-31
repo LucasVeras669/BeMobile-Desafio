@@ -13,12 +13,19 @@ width: 120px;
 height: 35.16px;
 margin-left: 32px;
 `
+
 export const Container = styled.div`
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 padding: 10px;
+`
+export const InputContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+
 `
 export const Title = styled.h4`
 font-family: Roboto;
@@ -37,7 +44,11 @@ background: #FFFFFF;
 border: 1px solid #CDCDCD;
 border-radius: 4px;
 padding-left: 10px;
-
+position: relative;
+`
+export const IconSearch = styled.img`
+position: absolute;
+right: 55px;
 `
 export const ListContainer = styled.div`
 width: 95%;
@@ -51,6 +62,5 @@ border-radius: 4px 4px 0px 0px;
 background-color: #5984C0;
 display: flex;
 box-sizing: border-box;
-
 
 `
