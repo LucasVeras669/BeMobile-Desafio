@@ -30,7 +30,7 @@ align-items: center;
 export const Title = styled.h4`
 font-family: Roboto;
 font-style: normal;
-font-weight: 500;
+font-weight: bolder;
 font-size: 24px;
 line-height: 28px;
 margin-left: 32px;
@@ -45,6 +45,14 @@ border: 1px solid #CDCDCD;
 border-radius: 4px;
 padding-left: 10px;
 position: relative;
+::placeholder{
+    color: #9E9E9E;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
 `
 export const IconSearch = styled.img`
 position: absolute;

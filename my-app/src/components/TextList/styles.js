@@ -17,7 +17,7 @@ font-size: 16px;
 line-height: 19px;
 color:  #FFFFFF;  
 position: absolute;
-right: 58%;
+right: 76%;
 `
 
 export const P2 = styled.p`
@@ -28,7 +28,7 @@ font-size: 16px;
 line-height: 19px;
 color:  #FFFFFF;
 position: absolute;
-right: 58%;
+right: 83%;
 
 `
 export const P3 = styled.p`
@@ -39,7 +39,7 @@ font-size: 16px;
 line-height: 19px;
 color:  #FFFFFF;
 position: absolute;
-right: 64%;
+right: 77%;
 
 `
 
@@ -52,7 +52,7 @@ font-size: 16px;
 line-height: 19px;
 color:  #FFFFFF;
 position: absolute;
-right: 29%;
+right: 39%;
 
 `
 
@@ -64,6 +64,6 @@ font-size: 16px;
 line-height: 19px;
 color:  #FFFFFF;
 position: absolute;
-left: 57%;
+left: 55%;
 
 `

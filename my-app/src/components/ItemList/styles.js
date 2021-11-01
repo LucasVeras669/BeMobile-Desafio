@@ -13,31 +13,33 @@ padding: 0 32px;
 box-sizing: border-box;
 position: relative;
 border-bottom: 2px solid lightgray;
-text-align: center;
 `
 export const ImageItemList = styled.img`
-width: 34px;
+width: 2.5%;
 height: 33px;
 border-radius: 50%;
-background-color: blue;
-margin-left: 55px;
-text-align: center; 
 `
-export const TextContainer = styled.div`
 
-`
 export const TextItemName = styled.p`
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 color: #1C1C1C;
-margin-left: 25px;
+width: 5%;
 `
 export const TextItem = styled.p`
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 color: #1C1C1C;
+
+`
+export const TextItemJob = styled.p`
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+color: #1C1C1C;
+width: 5%;
 
 `
 
