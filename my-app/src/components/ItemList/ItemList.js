@@ -1,13 +1,12 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
+import { EmployeesContext } from "../../provider/employees";
 import { ItemListContainer, ImageItemList, TextItemName, TextItem, TextItemJob } from "./styles";
 import axios from 'axios'
-import { EmployeesContext } from "../../provider/employees";
 
 
 const ItemList = () => {
-
     const { employees, setEmployees } = React.useContext(EmployeesContext)
-   
+
 
     useEffect(() => {
         axios.get('http://localhost:3000/employess').then((response) => {
@@ -37,8 +36,8 @@ const ItemList = () => {
 
     })
 
-
     return (
+
         <>
             {show}
         </>
