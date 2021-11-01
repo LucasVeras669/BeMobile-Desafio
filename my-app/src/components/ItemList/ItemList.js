@@ -6,7 +6,8 @@ import axios from 'axios'
 
 const ItemList = () => {
     const { employees, setEmployees } = React.useContext(EmployeesContext)
-
+    const { input } = React.useContext(EmployeesContext)
+   
 
     useEffect(() => {
         axios.get('http://localhost:3000/employess').then((response) => {
@@ -18,11 +19,13 @@ const ItemList = () => {
     }
         , [])
 
+     const filteredEmployees = employees.filter((employee)=>{
+         return employee.name.toLowerCase().includes(input.toLowerCase())
+     })
 
 
 
-
-    const show = employees.map((item) => {
+    const show = filteredEmployees.map((item) => {
         return (
             <ItemListContainer key={item.id}>
                 <ImageItemList src={item.image} />
