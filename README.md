@@ -9,15 +9,15 @@ deve ter a possibilidade de realizar uma pesquisa na tabela por um input. Obs: p
 [clique aqui](https://www.figma.com/file/y9qJNNAckFRL7LNoyNjpv8/Teste---Be-mobile).
 
 <br><br>
-<video width='650' src='https://user-images.githubusercontent.com/60482900/139854968-d61efc88-b82c-446e-a420-7da5f52fb966.mp4' autoplay controls>
+<video width='650' src='https://user-images.githubusercontent.com/60482900/139854968-d61efc88-b82c-446e-a420-7da5f52fb966.mp4' controls autoplay>
 
-<hr><br>
+<hr>
 
 ## Pré-requisitos
 Tenha instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com/).
 
-<hr><br>
+<hr>
 
 ## Rodando a aplicação
 Para iniciar o projeto, siga o passo-a-passo abaixo. Caso não tenha familiaridade com o [json-server](https://github.com/typicode/json-server).
