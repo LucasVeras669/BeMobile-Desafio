@@ -1,4 +1,6 @@
-# DESAFIO - BE MOBILE
+<h1 align='center'> DESAFIO - BE MOBILE</h1>
+
+![bemobile](https://user-images.githubusercontent.com/60482900/154982429-13cbee9c-e34b-42c0-b375-1779e64a41bf.png)
 
 
 ## Sobre
@@ -9,7 +11,7 @@ deve ter a possibilidade de realizar uma pesquisa na tabela por um input. Obs: p
 [clique aqui](https://www.figma.com/file/y9qJNNAckFRL7LNoyNjpv8/Teste---Be-mobile).
 
 <br><br>
-<video width='650' src='https://user-images.githubusercontent.com/60482900/139854968-d61efc88-b82c-446e-a420-7da5f52fb966.mp4' controls autoplay>
+<video width='590' src='https://user-images.githubusercontent.com/60482900/139854968-d61efc88-b82c-446e-a420-7da5f52fb966.mp4' controls autoplay>
 
 <hr>
 
